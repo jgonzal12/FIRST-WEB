@@ -1,0 +1,46 @@
+.body{
+    font-family: "Times New Roman";
+    background-color: rgba(201, 190, 166, 0.623);
+}
+
+.imagen-perfil{
+    max-width: 200px;
+    height: 270px;
+    object-fit: cover;
+    display:block;
+    margin: 10px auto;
+    border-style: solid;
+}
+
+.introduccion {
+    a {
+    color: rgb(14, 121, 221);
+    font-style: italic;
+    }
+    color: black;
+    padding: 10px 20px;
+}
+
+.formacion-academica{
+    color: black;
+    padding: 10px 20px;
+}
+
+.certificaciones{
+    a {
+    color: violet;
+    font-style: italic;
+    }
+    color: black;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+}
