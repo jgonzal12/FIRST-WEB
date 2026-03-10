@@ -1,70 +1,113 @@
 <!DOCTYPE html>
-<!-- HTML 5-->
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MI HOJA DE VIDA</title>
+    <title>Juan Andrés González — CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
 </head>
-
 <body>
-<center> <div class="body"> 
-    <img src="./IMG/foto.png" class="imagen-perfil">
-    <h1>JUAN ANDRES GONZALEZ HERNANDEZ</h1>
-    <div class="introduccion">
-        <p>
-        Estudiante de Ingeniería de Sistemas de la Universidad
-        EAN, dinámico y curioso, con<br> fuertes habilidades
-        comunicativas, apasionado por la innovación social y
-        tecnológica, la<br>sostenibilidad y la apuesta a construir
-        una sociedad más equitativa desde el acceso a la<br>tecnología</p>
-        <a href="https://www.linkedin.com/in/jagonzalezh/" target="_blank"> Linkedin</a>  
-    </div>
-    <h2> FORMACION ACADEMICA</h2>
 
-    <div class=" formacion-academica"
-        <p>
-        Estudiante de septimo semestre de Ingeniería de Sistemas<br>Universidad EAN
-        <br>2023-actualidad
-        </p>
-        <p>
-        Bachiller académico con énfasis en
-        gestión de proyectos<br>Colegio Colsubsidio Ciudadela <br>2008-2022
-        </p>
-    </div>
-    <h2>CERTIFICACIONES</h2> 
-    <div class= "certificaciones"
-        <p>
-        Curso de ciberseguridad <br> MinTic y Universidad Distrital <br> 2024<br>
-        <a href="./IMG/2230562124JG.pdf" target="_blank"> Certificado</a>
-        </p>
-        <p>
-        AWS Academy Graduate <br> Cloud Foundations <br> 2025<br>
-        <a href="https://www.credly.com/badges/7e059a53-91f4-4a66-b625-c6058be3a9c4/" target="_blank"> Certificado</a>    
-        </p>
-        <p>
-        Curso de fundamentos en base de datos <br> Ean X <br> 2025<br>
-        <a href="https://eanx.co/certificate/GdRgckwCYf" target="_blank"> Certificado</a>    
-        </p>
-    </div>
-    <h2>HABILIDADES BLANDAS</h2> 
-    <ul>
-        <li> Comunicación efectiva</li>
-        <li> Resolución de problemas</li>
-        <li> Liderazgo</li>
-        <li> Atención al detalle</li>
-    </ul>
-    <h2>HABILIDADES TECNICAS</h2> 
-    <ul>
-        <li> Programación (Java)</li>
-        <li> Bases de datos (MySQL)</li>
-        <li> Cloud architecture (AWS & AZURE)</li>
-        <li> Metodologia Scrum</li>
-        <li> Análisis de datos</li>
-        <li> Ingles intermedio</li>
-        <br>
-    </ul>
-</div></center>
+    <aside class="sidebar">
+        <div class="sidebar-top">
+            <div class="foto-wrapper">
+                <img src="./IMG/foto.png" alt="Juan Andrés González" class="imagen-perfil">
+            </div>
+            <h1 class="nombre">Juan Andrés<br><span>González H.</span></h1>
+            <p class="cargo">Ing. de Sistemas · Universidad EAN</p>
+            <a href="https://www.linkedin.com/in/jagonzalezh/" target="_blank" class="btn-linkedin">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                LinkedIn
+            </a>
+        </div>
+
+        <div class="sidebar-section">
+            <h3 class="sidebar-title">Habilidades Blandas</h3>
+            <ul class="skill-list">
+                <li>Comunicación efectiva</li>
+                <li>Resolución de problemas</li>
+                <li>Liderazgo</li>
+                <li>Atención al detalle</li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <h3 class="sidebar-title">Habilidades Técnicas</h3>
+            <div class="tech-tags">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">AWS</span>
+                <span class="tech-tag">Azure</span>
+                <span class="tech-tag">Scrum</span>
+                <span class="tech-tag">Data Analysis</span>
+                <span class="tech-tag">English B2</span>
+            </div>
+        </div>
+    </aside>
+
+    <main class="main-content">
+
+        <section class="card intro-card">
+            <div class="card-label">Sobre mí</div>
+            <p class="intro-texto">
+                Estudiante de Ingeniería de Sistemas de la Universidad EAN, dinámico y curioso, con fuertes habilidades comunicativas. Apasionado por la innovación social y tecnológica, la sostenibilidad y la construcción de una sociedad más equitativa desde el acceso a la tecnología.
+            </p>
+        </section>
+
+        <section class="card">
+            <div class="card-label">Formación Académica</div>
+            <div class="timeline-grid">
+                <div class="timeline-item">
+                    <div class="timeline-year">2023 — actual</div>
+                    <div class="timeline-content">
+                        <h4>Ingeniería de Sistemas</h4>
+                        <p>Universidad EAN · Séptimo semestre</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2008 — 2022</div>
+                    <div class="timeline-content">
+                        <h4>Bachiller Académico</h4>
+                        <p>Colegio Colsubsidio Ciudadela · Énfasis en gestión de proyectos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <div class="card-label">Certificaciones</div>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <div class="cert-icon">🔐</div>
+                    <div class="cert-info">
+                        <h4>Ciberseguridad</h4>
+                        <p>MinTic &amp; Universidad Distrital · 2024</p>
+                        <a href="./IMG/2230562124JG.pdf" target="_blank" class="cert-link">Ver certificado →</a>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">☁️</div>
+                    <div class="cert-info">
+                        <h4>AWS Academy Graduate</h4>
+                        <p>Cloud Foundations · 2025</p>
+                        <a href="https://www.credly.com/badges/7e059a53-91f4-4a66-b625-c6058be3a9c4/" target="_blank" class="cert-link">Ver certificado →</a>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">🗄️</div>
+                    <div class="cert-info">
+                        <h4>Fundamentos en Bases de Datos</h4>
+                        <p>EAN X · 2025</p>
+                        <a href="https://eanx.co/certificate/GdRgckwCYf" target="_blank" class="cert-link">Ver certificado →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
 </body>
 </html>
